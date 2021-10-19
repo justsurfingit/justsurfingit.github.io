@@ -6,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Ubuntu', sans-serif;
         }
        body{
            background-image:url("contactback.jpg");
@@ -30,7 +34,7 @@
        
 
         h1 {
-            width: 172px;
+            width: 185px;
             margin: auto;
         }
 
@@ -55,13 +59,74 @@
 
         }
         a{
-            border:2px solid black;
-            color:thistle;
+            /* border:2px solid black; */
+            color:black;
+            text-decoration:none;
             margin:3px;
-            width:100px;
-            margin-top:10px;
+            width:170px;
+            /* margin-top:10px; */
             height:40px;
         }
+        .links{
+            display:grid;
+            grid-template-columns: repeat(auto-fit,minmax(50px,30vw));
+            grid-gap: 2px;
+        }
+        .words {
+  /* color: #080808; */
+  color: #592275;
+  font-size: 0;
+  line-height: 1.5;
+}
+
+.words span {
+  font-size: 5rem;
+  display: inline-block;
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-30%, 0);
+  }
+  50% {
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
+}
+
+.words span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.words span:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.words span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.words span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.words span:nth-child(6) {
+  animation-delay: 2.5s;
+}
+
+.words span:nth-child(7) {
+  animation-delay: 3s;
+}
+.animation{
+    width:500px;
+    margin:auto;
+    /* color:brown; */
+}
+
+
     </style>
 </head>
 
@@ -79,12 +144,57 @@
 
     </header>
     <div class="links">
-        <a href="https://www.linkedin.com/in/parbeen-singh-phd-a071aaa6/">Linkedin</a>
-        <a href="https://scholar.google.com/citations?user=XNpJRHUAAAAJ&hl=en">Google Scholar</a>
-        <a href="Parbeens@uconn.edu">University Email</a>
-        <a href="https://www.researchgate.net/profile/Parbeen_Singh2">Reserch Gate</a>
-    
-    </div>
-</body>
+        
+           
+    <a href="https://www.linkedin.com/in/parbeen-singh-phd-a071aaa6/">Linkedin</a>
+        <a href="https://www.facebook.com/parbeen.singh">Facebook</a>
 
-</html>
+        <a href="https://scholar.google.com/citations?user=XNpJRHUAAAAJ&hl=en">Google Scholar</a>
+        <a href="https://www.researchgate.net/profile/Parbeen_Singh2">Reserch Gate</a>
+        <a href="https://www.instagram.com/parbeen_singh/">Instagram</a>
+        <!-- <a href="Parbeensingh.970@gmail.com">Gmail</a> -->
+        <div>Gmail: Parbeensingh.970@gmail.com</div>
+        <div>
+            Contact:+1 959-929-7357
+        </div>
+        <div>
+            University Email:Parbeens@uconn.edu
+        </div>
+        <a href="cvus.pdf">Curriculum vitae</a>
+        <!-- <hr> -->
+        <!-- <P>University Email-Parbeens@uconn.edu </P> -->
+    </div>
+    <div class="animation">
+
+        <div class="words word-1">
+            <span>T</span>
+            <span>H</span>
+            <span>A</span>
+            <span>N</span>
+            <span>K</span>
+            <span>S</span>
+            <!-- <span>N</span> -->
+        </div>
+        
+        <div class="words word-2">
+            <span>F</span>
+            <span>O</span>
+            <span>R</span>
+        </div>
+        
+        <div class="words word-3">
+            <span>V</span>
+            <span>I</span>
+            <span>S</span>
+            <span>I</span>
+            <span>T</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </div>
+        <!-- </div> -->
+    </div>
+        
+    </body>
+    
+    </html>
