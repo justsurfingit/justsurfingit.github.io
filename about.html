@@ -1,4 +1,4 @@
-<!-- This is the about page where i will laed to persons who will click about link  -->
+<!-- this is an html for about page  -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,73 +6,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("aboutfinal.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        h1 {
+            font-family: 'Ubuntu', sans-serif;
+            width: 160px;
+            margin: auto;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /* grid-template-columns: repeat(auto-fit, minmax(200px, 50vw)); */
+            grid-template-columns: repeat(auto-fit,minmax(50px,100vw));
+            grid-auto-columns: auto;
+            grid-gap: 10px;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        .all {
+            width: 80%;
+            height: 90%;
+            /* color:wheat; */
+            /* color: rgba(182, 173, 51, 0.83); */
+            color: rgba(234, 241, 234, 1);
+            grid-gap: 2rem;
+        }
+
+        h2 {
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+    </style>
 </head>
-<style>
-    
-
-    h1 {
-
-        margin: auto;
-        font-family: 'Ubuntu', sans-serif;
-        text-align: center;
-        color: black;
-        font-size: 2r font-size: 2rem;
-        font-size: 3rem;
-
-    }
-
-    .container {
-        display: grid;
-        grid-template-columns: 2fr 4fr 2fr;
-        /* grid-template-columns: 2fr ; */
-        /* justify-content: center; */
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        /* align-items: center; */
-        grid-gap: 20px;
-        font-size: 25px;
-        /* grid-auto-flow: ; */
-        margin-left:2px;
-
-    }
-
-
-
-</style>
 
 <body>
 
-    <div class="all">
-        <header>
-
-            <h1>About Me</h1>
-        </header>
-        <hr>
+    <div class=all>
+        <h1>About me</h1>
         <div class="container">
-            <p>Hey I'm Parbeen Singh.A Energetic professional with a blend of creativity, passion for cancer therapy,
-                polymeric pharmaceutical drug delivery, analytical chemistry, Photoresponsive therapy, Nanomedicine and
-                polymeric biomaterials and molecular biology. A motivated researcher offering over 8 years’ experience
-                in
-                the polymeric biomaterials, pharmaceutical analysis, primary cell culture, in vivo animal experiments,
-                Microneedles based transdermal drug delivery, clinical research, GDM, metabolite isolation and
-                quantification by LCMS-MS and clinical research. Focused on high standard of research quality,
-                leadership,
-                and learning skills.
+            <div>
+                <h2>Introduction</h2>
+                <p>Postdoctoral Researcher with a demonstrated history of working in the pharmaceuticals industry.
+                    Skilled in, Pharmaceutical Research, MOF, and Material Characterisation. Strong, Good Laboratory
+                    Practice (GLP), Liquid Chromatography-Mass Spectrometry (LC-MS).
 
-            </p>
+                </p>
+            </div>
             <div>
 
                 <h2>Education Qualification</h3>
                     <ul>
-                        <li>gyugohoigftc dtj</li>
-                        <li>the</li>
-                        <li>ajkbk</li>
-                        <li>jkj</li>
-                        <li>kaguihoi caugwuaonflvnliawp</li>
-                        <li>aguahwoihmcanahwowa</li>
+                        <li>Hemwati Nandan Bahuguna Garhwal University<br>(B.S in Pharmaceutical Sciences)</li>
+                        <li>Hemwati Nandan Bahuguna Garhwal University<br>(M.S in Pharmaceutical Chemistry)</li>
+
+                        <li>University of Chinese Academy of Sciences<br>(PhD in Pharmaceutics and Drug Design</li>
+                        <li>University of Chinese Academy of Sciences<br>(PhD in Pharmaceutics Design</li>
+
+                        <li>Sun Yat-Sen University<br>Postdoctoral Researcher</li>
+                        <li>University of Connecticut<br>Postdoctoral Researcher</li>
+
                     </ul>
             </div>
             <div>
@@ -90,9 +101,8 @@
                     aliquid iure, facilis quae nobis eos optio?</p>
             </div>
         </div>
-        <!-- <div class="conatiner"></div> -->
     </div>
+
 </body>
-<!-- </section> -->
 
 </html>
